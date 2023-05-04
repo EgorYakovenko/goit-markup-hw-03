@@ -1,0 +1,225 @@
+
+:root {
+ --title-color: #2E2F42; /*Цвет заголовков,*/
+ --link-color: #404BBF;  /*Цвет ссылок */
+ --button-color: #4D5AE5; /*Активная кнопка*/
+ --footer-text-color: #F4F4FD; /* Цвет текста футера*/
+ --hero-color: #FFFFFF;
+ --main-color-text:#434455;
+}
+
+.list {
+    list-style: none;     /*точки*/
+}
+
+.link {
+    text-decoration: none;     /*подчёркивание*/
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-color-text);
+    background-color: var(--hero-color);
+}
+/* ===================================================================== */
+/* ========================= ГЛАВНАЯ СТРАНИЦА  ========================= */
+/* ===================================================================== */
+
+/* ========================= Шапка сайта ========================= */
+.logo {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--button-color);
+}
+.web {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--title-color);
+}
+.hero{
+    background-color: var(--title-color);
+}
+
+.menu-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--title-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+color: var(--link-color);
+}
+/* ============================================================================= */
+.address {
+font-style: normal;
+}
+
+
+.contact {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--main-color-text);
+}
+.contact:hover,
+.contact:focus {
+ color:var(--link-color);
+}
+/* ============================================================================= */
+/* ========================= /Шапка сайта ========================= */
+
+/* ========================= Главное окно ========================= */
+.hero-btn {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: var(--hero-color);
+background-color:var(--button-color);
+cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+background-color: var(--link-color);
+}
+.hero-title {  
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--hero-color);
+}
+/* ========================= / Главное окно ========================= */
+
+/* =========================  Преимущества ========================= */
+.advantages-title {    
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--title-color); /*#2E2F42*/
+}
+.advantages-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--main-color-text);
+}
+/* ========================= / Преимущества ========================= */
+
+/* ========================= Примеры работ ========================= */
+.examples-title {                
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;   
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;          
+color: var(--title-color);
+}
+/* ========================= / Примеры работ ========================= */
+
+/* ========================= Команда ========================= */
+.team {
+background-color: var(--footer-text-color);    
+}
+.team-title {    
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;    
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--title-color);
+}
+.card {
+    background-color: var(--hero-color);
+}
+
+.team-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--title-color);
+}
+.team-prof {
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--main-color-text);
+}
+/* ========================= / Команда ========================= */
+
+/* ========================= Подвал ========================= */
+.footer {
+    background-color: var(--title-color);
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--footer-text-color);
+}
+.studio-footer {
+font-family: 'Raleway',sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--footer-text-color);
+}
+
+/* ========================= / Подвал ========================= */
+
+/* ===================================================================== */
+/* ========================= / ГЛАВНАЯ СТРАНИЦА  ========================= */
+/* ===================================================================== */
+
+
+/* ===================================================================== */
+/* ========================= ПОРТФОЛИО СТРАНИЦА  ========================= */
+/* ===================================================================== */
+
+.filter-btn { 
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;          
+color: var(--button-color);
+background-color:var(--footer-text-color);
+cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--hero-color);
+    background-color: var(--link-color);
+}
