@@ -434,12 +434,13 @@ padding-bottom: 12px;
 display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
+row-gap: 48px;
 
 }
 
-.card-menu > .border {
+.border {
 border: 1px solid #E7E9FC;
-flex-basis: calc(100% / 3 - 24px);
+width: calc((100% - 48px) / 3);
 margin-left: 24px;
 margin-top: 48px;
 row-gap: 48px;
@@ -453,5 +454,5 @@ row-gap: 48px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    width: calc((100% - 48px) / 3);
+    
 }
