@@ -102,17 +102,20 @@ color: var(--link-color);
 
 .page-header {
     display: flex;
+    border-bottom: 1px solid #e7e9fc
     
 }
 
 .header-container {
     display: flex;
     align-items: center;
+    outline: 1px solid red;
     
 }
 
 .page-navigation {
     display: flex;
+    align-items: center;
 }
 .menu {
     display: flex;
@@ -121,13 +124,16 @@ color: var(--link-color);
     padding-bottom: 24px;
 }
 
-.address-all {
+.address {
+    align-items: center;
     
-    display: flex;
-    margin-left: 332px;
     
 }
-
+.address-all {
+    display: flex;
+    /* column-gap: 40px; */
+    /* justify-content: end; */
+}
 
 .logo {
     display: flex;
@@ -135,18 +141,12 @@ color: var(--link-color);
 }
 .contact {
     display: flex;
-    
-    
-}
-.tell {
-    margin-left: auto;
-        margin-right: 40px;
-        
+    align-items: center;
+    margin-left: 332px;
 }
 
-.mail {
-    display: flex;
-}
+
+
 
 
 /* ============================================================================= */
@@ -174,13 +174,26 @@ font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-display: flex;
 align-items: center;
 letter-spacing: 0.04em;
 color: var(--hero-color);
 background-color:var(--button-color);
 cursor: pointer;
+/* margin-left: auto;
+margin-right: auto; */
+border: none;
+display: block 
+min-width: 169px;
+height: 56px;
+border-radius: 4px;
+padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    min-width: 169px;
+    height: 56px;
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
 background-color: var(--link-color);
@@ -201,15 +214,23 @@ color: var(--hero-color);
     margin-bottom: 48px;
 }
 
-.hero-btn {
+/* .hero-btn {
     padding-left: 32px;
     padding-right: 32px;
     padding-top: 16px;
     padding-bottom: 16px;
     margin-left: auto;
     margin-right: auto;
-}
+    display: block
+    min-width: 169px;
+    height: 56px;
+} */
 
+
+.main {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
 /* ========================= / Главное окно ========================= */
 
 /* =========================  Преимущества ========================= */
@@ -226,12 +247,19 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--main-color-text);
-column-gap: 24px;
-
+/* column-gap: 24px; */
+/* display: flex; */
+/* display: flex; */
 }
 .advantages-list {
     display: flex;
     
+}
+.advantages {
+    
+padding-top: 120px;
+padding-bottom: 120px;
+width: calc((100% - 3 * 24px) / 4);
 }
 
 
@@ -263,6 +291,10 @@ padding-top: 0;
 /* ========================= / Примеры работ ========================= */
 
 /* ========================= Команда ========================= */
+.info {
+    padding: 32px 16px;
+}
+
 .team {
 background-color: var(--footer-text-color);    
 }
@@ -289,7 +321,7 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--title-color);
-
+text-align: center;
 margin-top: 32px;
 margin-bottom: 8px;
 }
