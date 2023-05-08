@@ -125,8 +125,7 @@ color: var(--link-color);
 .menu {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 }
 
 .address {
@@ -153,7 +152,10 @@ color: var(--link-color);
     margin-left: 332px;
 }
 
-
+.link-navigation {
+padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 
 /* ============================================================================= */
@@ -250,16 +252,17 @@ color: var(--main-color-text);
 }
 .advantages-list {
 display: flex;
-    gap: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+gap: 24px;
+    
 }
     
 .advantages {
 padding-top: 120px;
 padding-bottom: 120px;
-
 }
-
+.first-element {
+    flex-basis: calc((100% - 72px) / 4);
+}
 
 
 /* ========================= / Преимущества ========================= */
