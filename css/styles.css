@@ -96,6 +96,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--title-color);
+
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -123,8 +124,8 @@ color: var(--link-color);
 .menu {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
 }
 
 .address {
@@ -151,7 +152,10 @@ color: var(--link-color);
     margin-left: 332px;
 }
 
-
+.link-navigation {
+    padding-top: 24px;
+        padding-bottom: 24px;
+}
 
 
 /* ============================================================================= */
@@ -222,8 +226,8 @@ color: var(--hero-color);
 
 
 .main-index {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    /* padding-top: 188px;
+    padding-bottom: 188px; */
 }
 /* ========================= / Главное окно ========================= */
 
@@ -324,7 +328,7 @@ text-align: center;
 letter-spacing: 0.02em;
 color: var(--title-color);
 text-align: center;
-margin-top: 32px;
+
 margin-bottom: 8px;
 
 }
@@ -334,7 +338,7 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--main-color-text);
-margin-bottom: 32px;
+
 }
 
 .card-team {
@@ -354,6 +358,7 @@ margin-bottom: 32px;
     margin-left: 156px;
     padding-top: 100px;
     margin-bottom: 16px;
+    display: inline-block;
 }
 .footer-text {
     font-size: 16px;
@@ -393,6 +398,8 @@ color: var(--footer-text-color);
 .btn-nav {
     justify-content: center;
     display: flex;
+    gap: 24px;
+    margin-bottom: 72px;
     
 }
 
@@ -408,21 +415,21 @@ letter-spacing: 0.04em;
 color: var(--button-color);
 background-color:var(--footer-text-color);
 cursor: pointer;
-
 border: 0px;
 border-radius: 4px;
-margin-bottom: 72px;
 padding-left: 24px;
 padding-right: 24px;
 padding-top: 12px;
 padding-bottom: 12px;
-
+border: 1px solid #e7e9fc
 
 }
 .filter-btn:hover,
 .filter-btn:focus {
     color: var(--hero-color);
     background-color: var(--link-color);
+    border: 1px solid transparent;
+    border: 1px solid transparent;
 }
 
 .start {
