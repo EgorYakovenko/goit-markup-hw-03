@@ -106,7 +106,9 @@ color: var(--link-color);
 
 .page-header {
     display: flex;
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    padding-top: 24px;
+    padding-bottom: 24px;
     
 }
 
@@ -152,10 +154,10 @@ color: var(--link-color);
     margin-left: 332px;
 }
 
-.link-navigation {
+/* .link-navigation {
 padding-top: 24px;
-    padding-bottom: 24px;
-}
+padding-bottom: 24px;
+} */
 
 
 /* ============================================================================= */
@@ -282,7 +284,7 @@ padding-top: 0;
 }
 .examples-img {
     display: flex;
-    /* gap: 24px; */
+    gap: 24px;
 }
 .examples-height {
     padding-top: 0;
